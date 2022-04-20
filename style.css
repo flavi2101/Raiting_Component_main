@@ -1,0 +1,91 @@
+* {
+  --primary-color: hsl(25, 97%, 53%);
+  --secundary-light: hsl(217, 12%, 63%);
+  --secundary-medium: hsl(216, 12%, 54%);
+  --secundary-dark: hsl(213, 19%, 18%);
+  --secundary-very-dark: hsl(216, 12%, 8%);
+
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: initial;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secundary-very-dark);
+  align-self: center;
+  width: clamp(375px, 100%, 375px);
+  color: white;
+  border-radius: 23px;
+  padding: 2.1rem;
+}
+
+aside[class="favorite-icon"] {
+  display: block;
+  background-color: var(--secundary-dark);
+  width: fit-content;
+  padding: 5px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+main > p {
+  color: var(--secundary-light);
+  line-height: 1.5em;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+li{
+  display: inline-block;
+  background-color: var(--secundary-dark);
+  height: 3rem;
+  width: 3.1rem;
+  border-radius: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+
+}
+li:hover{
+  background-color: var(--primary-color);
+  outline-style: none;
+}
+
+
+
+button {
+  display: block;
+  background-color: var(--primary-color);
+  border: none;
+  margin-top: 2rem;
+  padding: 8px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+}
