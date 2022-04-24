@@ -24,7 +24,7 @@ main {
   display: inline-flex;
   flex-direction: column;
   background-color: var(--secundary-very-dark);
-  width: clamp(375px, 100%, 375px);
+  inline-size: clamp(375px, 100%, 375px);
   color: white;
   border-radius: 23px;
   padding-inline: 2.1rem;
