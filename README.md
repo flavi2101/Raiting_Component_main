@@ -1,79 +1,30 @@
-# Big Game Survey 
+# Raiting Component
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/flavi2101/Raiting_Component_main/blob/master/LICENSE) 
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
+Raiting Component é um projeto baseado em um desafio do frontMentor ( https://www.frontendmentor.io/challenges ). É um site onde um template é fornecido com algumas instruções e precisamos reproduzí-lo usando as ferramentas e os conhecimentos prévios.
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
-
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+O projeto foi realizado utilizando apenas html e css nessa primeira versão. O botão de submit envia o usuario para uma segunda página de agradecimento.Nenhuma informação sobre a pontuação dada pelo usuário foi passada para a segunda página.
 
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![Mobile 1](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/mobile-design.jpg) ![Mobile 2](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/mobile-design.jpg)
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![Web 1](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/desktop-design.jpg)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+![Web 2](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/desktop-thank-you-state.jpg)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 ## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
+
 ## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- HTML
+- CSS
 
-# Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
-# Autor
-
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
+# Considerações
+1 - CSS foi configurado pensando em uma página multi lingua, levando em consideração Writing Model
+2 - Em outra oportunidade implementar padrao CSS - BEM
 
 
