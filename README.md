@@ -27,4 +27,7 @@ O projeto foi realizado utilizando apenas html e css nessa primeira versão. O b
 1 - CSS foi configurado pensando em uma página multi lingua, levando em consideração Writing Model
 2 - Em outra oportunidade implementar padrao CSS - BEM
 
+# Autor
+Flávio Henrique Ferreira Júnior
+https://www.linkedin.com/in/flavio2101/
 
