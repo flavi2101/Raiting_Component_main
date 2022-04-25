@@ -8,7 +8,7 @@ Raiting Component é um projeto baseado em um desafio do frontMentor ( https://w
 O projeto foi realizado utilizando apenas html e css nessa primeira versão. O botão de submit envia o usuario para uma segunda página de agradecimento.Nenhuma informação sobre a pontuação dada pelo usuário foi passada para a segunda página.
 
 ## Layout mobile
-![Mobile 1](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/mobile-design.jpg) ![Mobile 2](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/mobile-design.jpg)
+![Mobile 1](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/mobile-design.jpg) ![Mobile 2](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/mobile-thank-you-state.jpg)
 
 ## Layout web
 ![Web 1](https://github.com/flavi2101/Raiting_Component_main/blob/master/assets/instructions/design/desktop-design.jpg)
